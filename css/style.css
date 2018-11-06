@@ -1,0 +1,158 @@
+#first {
+    background: url('../images/bg_header.jpg');
+    background-size: cover;
+    width: 100%;
+}
+ul {
+    position: relative;
+    border: 2px solid black;
+    background: #303030;
+    margin-left: -17px;
+}
+@media screen and (max-width: 640px) {
+    #ul  {
+      width: 100%;
+    }
+    #first {
+        background-position: center;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
+#navlogo {
+    margin-left: 15%;
+}
+li a {
+    margin-left: 25px;
+}
+li  {
+    list-style:none;
+    margin-top: 20px;
+    border-bottom: 2px solid silver;
+}
+.bold {
+    font-weight: bold;
+}
+#jumboz{
+    background: none;
+    text-align: center;
+    color: white;
+    left: 50px;
+    z-index: 0;
+}
+#navz{
+    z-index: 1;
+}
+
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+.your-logo{
+    width: 25%;
+}
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+#nuage {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.text-nuage{
+    position: relative;
+    height: 600px;
+    background-color: aqua;
+    opacity: 0.6;
+}
+.border-white{
+    width: 30%;
+    padding-bottom: 10%;
+    border: 1px solid white;
+    overflow:hidden;
+
+}
+.blog-margin{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ 
+#nuage2 {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    filter : blur(5px); 
+}
+#contact{
+    position: relative;
+    overflow: hidden;
+}
+.contact-text{
+    position: relative;
+}
+footer{
+    background-color: #303030;
+    color: white;
+}
+.jumbotron{
+    text-align: center;
+}
+
+
+.grid-layout {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+grid-gap: 10px;
+grid-auto-rows: minmax(180px, auto);
+grid-auto-flow: dense;
+padding: 10px;
+}
+
+.grid-item {
+padding: 1rem;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+color: #929796;
+background-color: #333;
+border-radius: 5px;
+&:nth-child(odd) {
+    background-color: #424242;
+}
+
+
+.span-2 {
+grid-column-end: span 2;
+grid-row-end: span 2;
+}
+
+.span-3 {
+grid-column-end: span 3;
+grid-row-end: span 4;
+}
+
+}
